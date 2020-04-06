@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("college.jpg.jpg");
+    background-size: 100% 100%;
+    font-family: sans-serif;
+    color: black;
+
+}
+
+.input{
+
+    text-align: center;
+    margin: 100px 0;
+}
+
+input[type="text"]{
+    height: 60px;
+    width: 600px;
+    background: #e7e7e7;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+}
+
+input[type="submit"]{
+    height: 60px;
+    width: 100px;
+    background: #e7e7e7;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+.display{
+text-align: center;
+
+}
